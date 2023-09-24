@@ -1,5 +1,6 @@
 # KAIBURR-TASK-1
-#Task 1. Java REST API example
+# Task 1. Java REST API example
+
 The provided code is a Java application that implements a REST API for managing "server" objects using MongoDB as the database.
 
 1. The `Server` class represents the model for a server object. It has properties such as `id`, `name`, `language`, and `framework`. This class is annotated with `@Document` to specify the MongoDB collection name.
@@ -42,12 +43,4 @@ To run the code and see the output:
        "framework": "django"
      }
      ```
-     You should receive a response with the created server details.
-
-   - To delete a server by ID, send a DELETE request to `http://localhost:8080/servers/{serverId}`. Replace `{serverId}` with the ID of the server you want to delete. If the server exists, it will be deleted, and you will receive a 204 response with no content.
-
-   - To search for servers by name, send a GET request to `http://localhost:8080/servers/search?name={searchString}`. Replace `{searchString}` with the string you want to search for in server names. If any servers match the search criteria, you will receive a JSON response with the matching servers. Otherwise, you will receive a 404 response.
-
-That's it! You have now successfully implemented a Java REST API for managing server objects using MongoDB as the database.
-
-If you have any further questions or need assistance with anything else, feel free to ask.
+   

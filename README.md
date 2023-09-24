@@ -43,4 +43,5 @@ To run the code and see the output:
        "framework": "django"
      }
      ```
-   
+   ![image](https://github.com/estherlogos11/KAIBURR-TASK-1/assets/94285360/b9feca81-2e87-424a-881e-d4caf6a312e3)
+
